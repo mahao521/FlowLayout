@@ -3,6 +3,7 @@
 
     <declare-styleable name="FlowLayoutDemo">
         <attr name="selector" format="reference"></attr>
+        <attr name="gravity" format="integer"></attr>
     </declare-styleable>
 
 </resources>
