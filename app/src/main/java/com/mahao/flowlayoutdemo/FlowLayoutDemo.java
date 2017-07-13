@@ -368,7 +368,7 @@ public class FlowLayoutDemo extends ViewGroup implements View.OnClickListener {
             if (v.getVisibility() == View.GONE) continue;
             Rect outRect = new Rect();
 
-            //获得控件的矩形坐标
+            //获得控件的矩形坐标---- onlayour方法之后才能调用
             v.getHitRect(outRect);
             if (outRect.contains(x, y))
             {
